@@ -1,1 +1,1 @@
-# Drink App built with Node.js
+# Poker Tracker App built with Node.js and other fun stuff
