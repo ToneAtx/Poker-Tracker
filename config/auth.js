@@ -1,20 +1,20 @@
 module.exports = {
 
     'facebookAuth' : {
-        'clientID'      : '767180550061651', // your App ID
-        'clientSecret'  : '8acf40c0b556015a5ca050b79f75e223', // your App Secret
+        'clientID'      : '892901104109491', // your App ID
+        'clientSecret'  : '39fd835b2b711c573c4a44aaf4c518a5', // your App Secret
         'callbackURL'   : 'http://localhost:8080/auth/facebook/callback'
     },
 
     'twitterAuth' : {
-        'consumerKey'       : 'amldLqTuj1otkhM6rOyQUfiyk',
-        'consumerSecret'    : 'WR4MLAuKxX0m4eevKbJRe3gK4fiD4FcuOGVDEpfEGXW4eucRh8',
+        'consumerKey'       : 'xwxyv7kGcbtJoOguFOCaPEKj6',
+        'consumerSecret'    : 'pzj5ununNz8cSclrdJ2mqHxUtviV4VIgAERuGNrb0vPPwmUyQm',
         'callbackURL'       : 'http://localhost:8080/auth/twitter/callback'
     },
 
     'googleAuth' : {
-        'clientID'      : '817147731987-ecfh6gugvnoahigg3u2i9p09jtje26lq.apps.googleusercontent.com',
-        'clientSecret'  : 'PbRVzxyJdpe58ttw0PtrHlRR',
+        'clientID'      : '273220651593-9ibd6ir6obhhsfuv7udjl1hc3nfllpoj.apps.googleusercontent.com',
+        'clientSecret'  : '00Z-0eRvy1odfXDg0z3zgU0r',
         'callbackURL'   : 'http://localhost:8080/auth/google/callback'
     }
 
