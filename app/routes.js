@@ -14,10 +14,14 @@ module.exports = function(app, passport) {
         });
     });
 
-    // LOGOUT ==============================
-    app.get('/logout', function(req, res) {
-        req.logout();
-        res.redirect('/');
+    // ROI ==============================
+    app.get('/roi', function(req, res) {
+        res.render('roi.ejs');
+    });
+
+    // TEAM ==============================
+    app.get('/team', function(req, res) {
+        res.render('team.ejs');
     });
 
 // =============================================================================
