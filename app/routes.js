@@ -14,14 +14,24 @@ module.exports = function(app, passport) {
         });
     });
 
-    // ROI ==============================
-    app.get('/roi', function(req, res) {
-        res.render('roi.ejs');
+    // STATS ==============================
+    app.get('/stats', function(req, res) {
+        res.render('stats.ejs');
     });
 
     // TEAM ==============================
     app.get('/team', function(req, res) {
         res.render('team.ejs');
+    });
+
+    // Bank Roll ==============================
+    app.get('/bankroll', function(req, res) {
+        res.render('bankroll.ejs');
+    });
+
+    // Log out ==============================
+    app.get('/logout', function(req, res) {
+        res.render('signin.ejs');
     });
 
 // =============================================================================
